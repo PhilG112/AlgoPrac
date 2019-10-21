@@ -1,0 +1,6 @@
+{
+  "projects": [ "AlgoPrac.App", "AlgoPrac.Facts" ],
+  "sdk": {
+    "version": "2.2.401"
+  }
+}

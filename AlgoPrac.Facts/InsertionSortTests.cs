@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
-using AlgoPrac.Algorithms.InsertionSort;
+using AlgoPrac.App.Algorithms.InsertionSort;
 using Xunit;
 
-namespace AlgoPrac.Tests
+namespace AlgoPrac.Facts
 {
     public class InsertionSortTets
     {

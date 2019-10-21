@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "restore": {
+    "d:\\Docs\\AlgoPrac\\AlgoPrac.Facts\\AlgoPrac.Facts.csproj": {}
+  },
+  "projects": {
+    "d:\\Docs\\AlgoPrac\\AlgoPrac.App\\AlgoPrac.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Docs\\AlgoPrac\\AlgoPrac.App\\AlgoPrac.csproj",
+        "projectName": "AlgoPrac",
+        "projectPath": "d:\\Docs\\AlgoPrac\\AlgoPrac.App\\AlgoPrac.csproj",
+        "packagesPath": "C:\\Users\\Phil\\.nuget\\packages\\",
+        "outputPath": "d:\\Docs\\AlgoPrac\\AlgoPrac.App\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Phil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "d:\\Docs\\AlgoPrac\\AlgoPrac.Facts\\AlgoPrac.Facts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "d:\\Docs\\AlgoPrac\\AlgoPrac.Facts\\AlgoPrac.Facts.csproj",
+        "projectName": "AlgoPrac.Facts",
+        "projectPath": "d:\\Docs\\AlgoPrac\\AlgoPrac.Facts\\AlgoPrac.Facts.csproj",
+        "packagesPath": "C:\\Users\\Phil\\.nuget\\packages\\",
+        "outputPath": "d:\\Docs\\AlgoPrac\\AlgoPrac.Facts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Phil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "d:\\Docs\\AlgoPrac\\AlgoPrac.App\\AlgoPrac.csproj": {
+                "projectPath": "d:\\Docs\\AlgoPrac\\AlgoPrac.App\\AlgoPrac.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "BenchmarkDotNet": {
+              "target": "Package",
+              "version": "[0.11.5, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

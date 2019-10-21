@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AlgoPrac
+namespace AlgoPrac.App
 {
     public class Program
     {

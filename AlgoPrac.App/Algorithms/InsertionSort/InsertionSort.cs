@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace AlgoPrac.Algorithms.InsertionSort
+namespace AlgoPrac.App.Algorithms.InsertionSort
 {
     public static class InsertionSort
     {
