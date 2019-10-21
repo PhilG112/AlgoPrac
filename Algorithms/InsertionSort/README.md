@@ -1,8 +1,8 @@
 # Insertion Sort
 
-**Input:** A sequence of $n$ numbers { a1, a2, a3 ...., a*n*}
+**Input:** A sequence of *n* numbers { a*1*, a*2*, a*3* ...., a*n*}
 
-**Output:** A permutation (reordering) of the input sequence such that $a_1$ <= $a_2$ <= .... <= $a_n$
+**Output:** A permutation (reordering) of the input sequence such that a*1* <= a*2* <= .... <= a*n*
 
 ## Pseudocode
 
