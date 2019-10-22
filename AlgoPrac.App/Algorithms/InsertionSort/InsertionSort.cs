@@ -6,18 +6,18 @@ namespace AlgoPrac.App.Algorithms.InsertionSort
     {
         public static IList<int> InsertionSortAlgorithm(IList<int> a)
         {
-            for (var j = 2; j < a.Count; j++)
+            for (var i = 1; i < a.Count; i++)
             {
-                var key = a[j];
-                var i = j -1;
+                var key = a[i];
+                var j = i - 1;
 
-                while(i > 0 && a[i] > key)
+                while (j >= 0 && a[j] > key)
                 {
-                    a[i + 1] = a[i];
-                    i = i - 1;
+                    a[j + 1] = a[j];
+                    j = j - 1;
                 }
 
-                a[i + 1] = key;
+                a[j + 1] = key;
             }
 
             return a;
