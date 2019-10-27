@@ -1,5 +1,5 @@
+using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using AlgoPrac.App.Algorithms.InsertionSort;
 using Xunit;
