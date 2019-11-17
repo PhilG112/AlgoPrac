@@ -8,4 +8,8 @@
   <PropertyGroup>
     <LangVersion>preview</LangVersion>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="CTCI\" />
+  </ItemGroup>
 </Project>

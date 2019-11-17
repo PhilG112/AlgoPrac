@@ -4,6 +4,7 @@ namespace AlgoPrac.App.Algorithms.InsertionSort
 {
     public static class InsertionSort
     {
+        // Average: O(n^2) time | O(1) space
         public static IList<int> InsertionSortAlgorithm(IList<int> array)
         {
             for (var i = 1; i < array.Count; i++)

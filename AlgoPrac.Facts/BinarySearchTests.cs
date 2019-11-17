@@ -1,5 +1,4 @@
 ﻿using AlgoPrac.Algorithms.BinarySearch;
-using System.Diagnostics;
 using System.Linq;
 using Xunit;
 
@@ -12,12 +11,21 @@ namespace AlgoPrac.Facts
         {
             var given = Enumerable.Range(0, 100000000).ToArray();
             var target = 23474777;
+            var expected = given.ToList().IndexOf(target);
 
-            var sw = new Stopwatch(); sw.Start();
             var actual = BinarySearchSimple.BinarySearch(given, target);
-            sw.Stop();
-            var e = sw.Elapsed;
-            Assert.Equal(target, actual);
+            Assert.Equal(expected, actual);
+        }
+
+        [Fact]
+        public void BinarySearchRecursiveTest()
+        {
+            var given = Enumerable.Range(0, 10).ToArray();
+            var target = 3;
+            var expected = given.ToList().IndexOf(target);
+
+            var actual = BinarySearchSimple.BinarySearchRecursive(given, target);
+            Assert.Equal(expected, actual);
         }
     }
 }
