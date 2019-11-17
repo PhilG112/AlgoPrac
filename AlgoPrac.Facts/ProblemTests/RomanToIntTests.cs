@@ -1,7 +1,7 @@
-﻿using AlgoPrac.LeetCode;
+﻿using AlgoPrac.Problems;
 using Xunit;
 
-namespace AlgoPrac.Facts.LeetCodeTests
+namespace AlgoPrac.Facts.ProblemTests
 {
     public class RomanToIntTests
     {

@@ -1,10 +1,10 @@
-﻿using AlgoPrac.LeetCode;
+﻿using AlgoPrac.Problems;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using Xunit;
 
-namespace AlgoPrac.Facts.LeetCodeTests
+namespace AlgoPrac.Facts.ProblemTests
 {
     public class ReverseIntTests
     {

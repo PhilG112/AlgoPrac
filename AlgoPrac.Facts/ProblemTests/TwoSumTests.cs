@@ -1,10 +1,10 @@
 using System.Collections.Generic;
-using AlgoPrac.Algorithms.LeetCode;
+using AlgoPrac.Algorithms.Problems;
 using Xunit;
 
-namespace AlgoPrac.Facts.LeetCodeTests
+namespace AlgoPrac.Facts.ProblemTests
 {
-    public class LeetCodeTests
+    public class TwoSumTests
     {
         [Fact]
         public void TwoSumTest()

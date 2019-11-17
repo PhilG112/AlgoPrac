@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AlgoPrac.LeetCode
+namespace AlgoPrac.Problems
 {
     public static class LongestCommonPrefix
     {

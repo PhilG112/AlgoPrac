@@ -1,4 +1,5 @@
 ﻿using System;
+using AlgoPrac.Problems;
 
 namespace AlgoPrac.App
 {
@@ -6,7 +7,7 @@ namespace AlgoPrac.App
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var o = PalindromeString.IsPalindrome("aba");
         }
     }
 }

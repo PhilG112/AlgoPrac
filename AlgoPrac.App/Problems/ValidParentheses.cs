@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace AlgoPrac.LeetCode
+namespace AlgoPrac.Problems
 {
     public static class ValidParentheses
     {

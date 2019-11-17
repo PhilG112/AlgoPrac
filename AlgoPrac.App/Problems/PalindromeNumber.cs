@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace AlgoPrac.LeetCode
+namespace AlgoPrac.Problems
 {
     public static class PalindromeNumber
     {

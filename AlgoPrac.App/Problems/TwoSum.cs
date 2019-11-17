@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace AlgoPrac.Algorithms.LeetCode
+namespace AlgoPrac.Algorithms.Problems
 {
     public static class TwoSum
     {
