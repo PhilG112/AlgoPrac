@@ -7,7 +7,6 @@ namespace AlgoPrac.App
     {
         static void Main(string[] args)
         {
-            var o = PalindromeString.IsPalindrome("aba");
         }
     }
 }
