@@ -5,7 +5,7 @@ using System.Diagnostics;
 using System.Linq;
 using Xunit;
 
-namespace AlgoPrac.Facts
+namespace AlgoPrac.Facts.Algorithms
 {
     public class BubbleSortTests
     {

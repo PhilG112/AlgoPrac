@@ -3,7 +3,7 @@ using System;
 using System.Linq;
 using Xunit;
 
-namespace AlgoPrac.Facts
+namespace AlgoPrac.Facts.Algorithms
 {
     public class SelectionSortTests
     {

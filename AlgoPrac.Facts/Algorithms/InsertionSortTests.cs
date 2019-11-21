@@ -4,7 +4,7 @@ using System.Linq;
 using AlgoPrac.App.Algorithms.InsertionSort;
 using Xunit;
 
-namespace AlgoPrac.Facts
+namespace AlgoPrac.Facts.Algorithms
 {
     public class InsertionSortTets
     {
