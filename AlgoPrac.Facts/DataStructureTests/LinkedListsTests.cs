@@ -12,19 +12,19 @@ namespace AlgoPrac.Facts.DataStructureTests
         [Fact]
         public void LinkedListsTest()
         {
-            var l = new MyLinkedList<int>(new Node<int>(1));
-            l.AddToEnd(new Node<int>(2));
-            l.AddToEnd(new Node<int>(3));
-            l.AddToEnd(new Node<int>(4));
+            var l = new MySinglyLinkedList<int>(new SinglyNode<int>(1));
+            l.AddToEnd(new SinglyNode<int>(2));
+            l.AddToEnd(new SinglyNode<int>(3));
+            l.AddToEnd(new SinglyNode<int>(4));
 
-            var ns = new List<Node<int>>
+            var ns = new List<SinglyNode<int>>
             {
-                new Node<int>(5),
-                new Node<int>(6),
-                new Node<int>(7),
-                new Node<int>(8),
-                new Node<int>(9),
-                new Node<int>(10)
+                new SinglyNode<int>(5),
+                new SinglyNode<int>(6),
+                new SinglyNode<int>(7),
+                new SinglyNode<int>(8),
+                new SinglyNode<int>(9),
+                new SinglyNode<int>(10)
             };
 
             l.AddMultipleToEnd(ns);

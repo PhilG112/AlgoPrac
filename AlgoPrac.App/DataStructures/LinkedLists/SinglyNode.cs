@@ -4,13 +4,13 @@ using System.Text;
 
 namespace AlgoPrac.DataStructures.LinkedLists
 {
-    public class Node<T>
+    public class SinglyNode<T>
     {
         public T value;
 
-        public Node<T> next;
+        public SinglyNode<T> next;
 
-        public Node(T value)
+        public SinglyNode(T value)
         {
             this.value = value;
         }

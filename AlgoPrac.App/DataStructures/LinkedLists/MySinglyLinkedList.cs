@@ -5,21 +5,21 @@ using System.Text;
 
 namespace AlgoPrac.DataStructures.LinkedLists
 {
-    public class MyLinkedList<T>
+    public class MySinglyLinkedList<T>
     {
-        public Node<T> Head;
+        public SinglyNode<T> Head;
 
-        public Node<T> Last;
+        public SinglyNode<T> Last;
 
         public int Count { get; private set; }
 
-        public MyLinkedList(Node<T> head)
+        public MySinglyLinkedList(SinglyNode<T> head)
         {
             Head = head;
             Count++;
         }
 
-        public void AddToEnd(Node<T> node)
+        public void AddToEnd(SinglyNode<T> node)
         {
             if (node == null)
             {
@@ -39,7 +39,7 @@ namespace AlgoPrac.DataStructures.LinkedLists
             Count++;
         }
 
-        public void AddMultipleToEnd(IList<Node<T>> nodes)
+        public void AddMultipleToEnd(IList<SinglyNode<T>> nodes)
         {
             if (nodes == null)
             {
