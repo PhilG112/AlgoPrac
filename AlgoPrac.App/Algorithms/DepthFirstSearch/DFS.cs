@@ -8,7 +8,7 @@ namespace AlgoPrac.Algorithms.DepthFirstSearch
     public class DFS
     {
         public string name;
-
+ 
         public IList<DFS> children = new List<DFS>();
 
         public DFS(string name)
